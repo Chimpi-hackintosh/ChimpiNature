@@ -1,0 +1,12 @@
+{
+  "item.chimpinature.sandwich": "Crafted Sandwich",
+  "item.chimpinature.fruit_salad": "Fruit Salad",
+  "item.chimpinature.honey_toast": "Honey Toast",
+  "key.chimpinature.toggle_wind": "Change wind intensity",
+  "category.chimpinature": "ChimpiNature",
+  "message.chimpinature.wind": "Wind: %s",
+  "mode.chimpinature.0": "off",
+  "mode.chimpinature.1": "light",
+  "mode.chimpinature.2": "normal",
+  "mode.chimpinature.3": "strong"
+}

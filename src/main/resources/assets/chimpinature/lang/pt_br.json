@@ -1,0 +1,12 @@
+{
+  "item.chimpinature.sandwich": "Sanduíche artesanal",
+  "item.chimpinature.fruit_salad": "Salada de frutas",
+  "item.chimpinature.honey_toast": "Torrada com mel",
+  "key.chimpinature.toggle_wind": "Mudar intensidade do vento",
+  "category.chimpinature": "ChimpiNature",
+  "message.chimpinature.wind": "Vento: %s",
+  "mode.chimpinature.0": "desligado",
+  "mode.chimpinature.1": "leve",
+  "mode.chimpinature.2": "normal",
+  "mode.chimpinature.3": "forte"
+}

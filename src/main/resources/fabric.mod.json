@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "chimpinature",
+  "version": "${version}",
+  "name": "ChimpiNature",
+  "description": "Vento ambiente, comidas novas e shaderpack opcional para Minecraft Java",
+  "authors": [
+    "Chimpi-hackintosh"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/chimpinature/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "br.com.chimpi.nature.ChimpiNature"
+    ],
+    "client": [
+      "br.com.chimpi.nature.client.ChimpiNatureClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

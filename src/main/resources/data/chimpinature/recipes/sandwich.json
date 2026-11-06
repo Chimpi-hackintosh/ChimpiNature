@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CMC",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    },
+    "M": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "chimpinature:sandwich",
+    "count": 2
+  }
+}

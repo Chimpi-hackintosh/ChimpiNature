@@ -12,7 +12,9 @@ Mod para **Minecraft Java 1.20.1**, usando **Fabric** e Java 17
 
 Veja os arquivos da versao na aba [Releases](https://github.com/Chimpi-hackintosh/ChimpiNature/releases)
 
-O workflow `Build e Release do ChimpiNature` compila usando Gradle e anexa ao Release v1.0.0:
+O workflow `Build e Release do ChimpiNature` compila usando Gradle e disponibiliza os arquivos como artefatos. Pushes em `main` e pull requests não publicam Releases
+
+A Release v1.0.0 só é criada ou atualizada quando o mantenedor executa **Actions → Build e Release do ChimpiNature → Run workflow** e marca explicitamente `publish_release`. O padrão é desmarcado
 - `ChimpiNature-1.0.0.jar` (mod Fabric)
 - `ChimpiNature_Shaderpack.zip` (shader opcional)
 

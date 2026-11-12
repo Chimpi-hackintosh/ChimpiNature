@@ -2,7 +2,15 @@ name: Build e Release do ChimpiNature
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
+    inputs:
+      publish_release:
+        description: "Publicar ou atualizar a Release v1.0.0? Use somente quando isso tiver sido solicitado"
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -33,6 +41,7 @@ jobs:
             ChimpiNature_Shaderpack.zip
           if-no-files-found: error
       - name: Criar Release v1.0.0 com JAR e shaders
+        if: github.event_name == 'workflow_dispatch' && inputs.publish_release == true
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v1.0.0
